@@ -14,6 +14,7 @@ window.onload = function() {
 var game = function(array) {
 	this.numCards = 16;
 	this.cardArray = array;
+	this.pairingState = 0;
 };
 
 game.prototype.shuffle = function() {
@@ -52,6 +53,10 @@ game.prototype.addClickListener = function() {
 		cells[i].addEventListener("click", function(){
 			console.log("hello");
 		});
-	};
+	}
+
+game.prototype.checkMatch = function() {
+	
+};
 
 };
