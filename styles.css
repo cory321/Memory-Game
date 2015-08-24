@@ -1,0 +1,19 @@
+
+body {
+	margin: 0;
+}
+
+#container {
+	width: 608px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.cell {
+	display: block;
+	width: 150px;
+	height: 150px;
+	border:1px solid #333;
+	float: left;
+	cursor: pointer;
+}
