@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-	width: 608px;
+	width: 616px;
 	margin: 0 auto;
 	padding-top: 50px;
 }
@@ -13,7 +13,17 @@ body {
 	display: block;
 	width: 150px;
 	height: 150px;
-	border:1px solid #333;
+	border:2px solid #FFF;
 	float: left;
 	cursor: pointer;
+}
+
+.hidden {
+	display: block;
+	width: 150px;
+	height: 150px;
+	border:2px solid #FFF;
+	float: left;
+	cursor: pointer;
+	background-color: black;
 }
